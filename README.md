@@ -6,7 +6,7 @@
 > 🚧 **Attenzione:** Questo progetto è attualmente in fase di sviluppo attivo. Funzionalità e documentazione sono soggette a cambiamenti frequenti.
 
 <div align="center">
-  <video src="./img/cover_a.mp4" alt="RMI Made in Italy" width="100%" autoplay loop muted />
+  <img src="./img/cover_a.gif" alt="RMI Made in Italy" width="100%" />
 </div>
 
 <picture>
