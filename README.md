@@ -1,11 +1,19 @@
 
-# 🚗 Capstone Project: RMI Made in Italy
+<h1 align="center"> 
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Iosevka&size=30&color=d4af37&center=true&vCenter=true&width=800&height=60&lines=🚗+RMI+Made+in+Italy+-+Capstone+Project&repeat=false" alt="🚗 RMI Made in Italy - Capstone Project"> 
+</h1> 
 
 > 🚧 **Attenzione:** Questo progetto è attualmente in fase di sviluppo attivo. Funzionalità e documentazione sono soggette a cambiamenti frequenti.
 
 <div align="center">
-  <img src="./img/cover_a.mp4" alt="RMI Made in Italy" width="100%" />
+  <video src="./img/cover_a.mp4" alt="RMI Made in Italy" width="100%" autoplay loop muted />
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
+</picture>
 
 ## 📋 Panoramica del Progetto
 
@@ -14,12 +22,6 @@ RMI Made in Italy è una piattaforma completa dedicata al restauro, personalizza
 1. **Front-end**: Interfaccia utente reattiva e moderna sviluppata con React e Tailwind CSS
 2. **Back-end**: API RESTful basata su Node.js, Express e MongoDB
 3. **AI Driving Assistant**: Assistente virtuale intelligente basato su Python e Flask
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
-</picture>
 
 ### 🌟 Caratteristiche Principali
 
@@ -169,7 +171,7 @@ Progetto creato da [Henry](https://github.com/henry8913).
 
 </div>
 
-<img src="./img/h_cover.jpg" alt="Cover" width="100%" />
+<img src="./img/cover.jpg" alt="Cover" width="100%" />
 
 ---
 
