@@ -3,11 +3,32 @@
 
 > 🚧 **Attenzione:** Questo progetto è attualmente in fase di sviluppo attivo. Funzionalità e documentazione sono soggette a cambiamenti frequenti.
 
+<div align="center">
+  <img src="./img/cover_a.mp4" alt="RMI Made in Italy" width="100%" />
+</div>
+
+## 📋 Panoramica del Progetto
+
+RMI Made in Italy è una piattaforma completa dedicata al restauro, personalizzazione e manutenzione di auto d'epoca di lusso. Il progetto è composto da tre componenti principali:
+
+1. **Front-end**: Interfaccia utente reattiva e moderna sviluppata con React e Tailwind CSS
+2. **Back-end**: API RESTful basata su Node.js, Express e MongoDB
+3. **AI Driving Assistant**: Assistente virtuale intelligente basato su Python e Flask
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
 </picture>
+
+### 🌟 Caratteristiche Principali
+
+- **Catalogo Interattivo**: Esplora una collezione curata di auto d'epoca e restomods
+- **Configuratore Personalizzato**: Crea la tua auto personalizzata con opzioni dettagliate
+- **Gestione Profilo**: Registrazione utente, wishlist e prenotazioni test drive
+- **Assistente Virtuale**: HenryAI, un assistente AI specializzato in auto d'epoca
+- **Pagamenti Sicuri**: Integrazione con Stripe per transazioni sicure (modalità simulazione)
+- **Design Responsive**: Esperienza utente ottimizzata su tutti i dispositivi
 
 ## 🔄 Gestione del Monorepo
 
@@ -38,7 +59,84 @@ chmod +x push_subtrees.sh
 ./push_subtrees.sh
 ```
 
----
+## 🧩 Componenti del Progetto
+
+### 🖥️ Front-end
+
+L'interfaccia utente è sviluppata con React 18, Vite e Tailwind CSS, offrendo un'esperienza moderna e reattiva.
+
+**Tecnologie principali:**
+- React 18 con Hooks
+- Vite come build tool
+- Tailwind CSS per lo styling
+- React Router per la navigazione
+- Axios per le chiamate API
+- Framer Motion per le animazioni
+
+[Maggiori dettagli nel README del Front-end](./Front-end/README.md)
+
+### ⚙️ Back-end
+
+Il server è basato su Node.js ed Express, con MongoDB come database, fornendo un'API RESTful completa.
+
+**Tecnologie principali:**
+- Node.js e Express.js
+- MongoDB con Mongoose
+- JWT per l'autenticazione
+- Passport.js per la gestione delle sessioni
+- Stripe per i pagamenti (modalità simulazione)
+- SendGrid per le email
+
+[Maggiori dettagli nel README del Back-end](./Back-end/README.md)
+
+### 🤖 AI Driving Assistant
+
+HenryAI è un assistente virtuale specializzato in auto d'epoca, sviluppato con Python e Flask, integrato con API di intelligenza artificiale.
+
+**Tecnologie principali:**
+- Python
+- Flask
+- OpenRouter API
+- MongoDB per la persistenza delle conversazioni
+- Flask-CORS per la gestione delle richieste cross-origin
+
+[Maggiori dettagli nel README dell'AI Driving Assistant](./AI%20Driving%20Assistant/README.md)
+
+## 🚀 Come Iniziare
+
+Per eseguire l'intero progetto localmente, segui questi passaggi:
+
+1. **Clona il repository**
+   ```bash
+   git clone https://github.com/henry8913/7_Capstone-Project_RMI-Made-in-Italy.git
+   cd 7_Capstone-Project_RMI-Made-in-Italy
+   ```
+
+2. **Configura il Back-end**
+   ```bash
+   cd Back-end
+   cp .env.example .env  # Configura le variabili d'ambiente
+   npm install
+   npm run dev
+   ```
+
+3. **Configura il Front-end**
+   ```bash
+   cd ../Front-end
+   cp .env.example .env  # Configura le variabili d'ambiente
+   npm install
+   npm run dev
+   ```
+
+4. **Configura l'AI Driving Assistant**
+   ```bash
+   cd ../AI\ Driving\ Assistant
+   cp .env.example .env  # Configura le variabili d'ambiente
+   pip install -r requirements.txt
+   python HenryAI.py
+   ```
+
+> **Nota:** Per istruzioni dettagliate su ciascun componente, consulta i README specifici nelle rispettive cartelle.
 
 ## 📦 Repository Individuali
 
@@ -48,7 +146,13 @@ chmod +x push_subtrees.sh
 - [Extensions](https://github.com/henry8913/7_RMI-Made-in-Italy_Extensions)
 - [DevLab](https://github.com/henry8913/7_RMI-Made-in-Italy_DevLab.git)
 
----
+## 📝 Nota sui Pagamenti
+
+Questo progetto utilizza Stripe in modalità test per simulare i pagamenti. **Nessuna transazione reale viene elaborata**. Per testare la funzionalità di pagamento, usa i seguenti dati di test:
+
+- **Numero carta**: 4242 4242 4242 4242
+- **Data scadenza**: Qualsiasi data futura
+- **CVC**: Qualsiasi numero a 3 cifre
 
 ## 👤 Autore
 
@@ -65,7 +169,7 @@ Progetto creato da [Henry](https://github.com/henry8913).
 
 </div>
 
-<img src="./img/cover.jpg" alt="Cover" width="100%" />
+<img src="./img/h_cover.jpg" alt="Cover" width="100%" />
 
 ---
 
