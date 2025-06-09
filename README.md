@@ -171,7 +171,7 @@ Progetto creato da [Henry](https://github.com/henry8913).
 
 </div>
 
-<img src="./img/cover.jpg" alt="Cover" width="100%" />
+<img src="./img/h_cover.jpg" alt="Cover" width="100%" />
 
 ---
 
