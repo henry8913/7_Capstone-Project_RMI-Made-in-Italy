@@ -9,12 +9,6 @@
   <img src="./img/cover_a.gif" alt="RMI Made in Italy" width="100%" />
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
-</picture>
-
 ## 📋 Panoramica del Progetto
 
 RMI Made in Italy è una piattaforma completa dedicata al restauro, personalizzazione e manutenzione di auto d'epoca di lusso. Il progetto è composto da tre componenti principali:
@@ -35,6 +29,12 @@ RMI Made in Italy è una piattaforma completa dedicata al restauro, personalizza
 ## 🔄 Gestione del Monorepo
 
 Il progetto adotta una struttura **monorepo** per facilitare la gestione dei vari componenti tramite due script Bash:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/henry8913/henry8913/output/pacman-contribution-graph.svg">
+</picture>
 
 ### `setup_monorepo.sh`
 - Configura le repository remote per **Frontend**, **Backend**, **AI Driving Assistant** ed **Extensions**
