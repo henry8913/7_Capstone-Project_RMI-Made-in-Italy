@@ -143,8 +143,6 @@ Per eseguire l'intero progetto localmente, segui questi passaggi:
 - [Frontend](https://github.com/henry8913/7_RMI-Made-in-Italy_Front-end)
 - [Backend](https://github.com/henry8913/7_RMI-Made-in-Italy_Back-end)
 - [AI Driving Assistant](https://github.com/henry8913/7_RMI-Made-in-Italy_AI-Driving-Assistant)
-- [Extensions](https://github.com/henry8913/7_RMI-Made-in-Italy_Extensions)
-- [DevLab](https://github.com/henry8913/7_RMI-Made-in-Italy_DevLab.git)
 
 ## 📝 Nota sui Pagamenti
 
