@@ -3,15 +3,15 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Iosevka&size=30&color=d4af37&center=true&vCenter=true&width=800&height=60&lines=🚗+RMI+Made+in+Italy+-+Capstone+Project&repeat=false" alt="🚗 RMI Made in Italy - Capstone Project"> 
 </h1> 
 
-> 🚧 **Attenzione:** Questo progetto è attualmente in fase di sviluppo attivo. Funzionalità e documentazione sono soggette a cambiamenti frequenti.
+## 📋 Panoramica del Progetto
+
+RMI Made in Italy è una piattaforma completa dedicata al restauro, personalizzazione e manutenzione di auto d'epoca di lusso.
 
 <div align="center">
   <img src="./img/cover_a.gif" alt="RMI Made in Italy" width="100%" />
 </div>
 
-## 📋 Panoramica del Progetto
-
-RMI Made in Italy è una piattaforma completa dedicata al restauro, personalizzazione e manutenzione di auto d'epoca di lusso. Il progetto è composto da tre componenti principali:
+#### Il progetto è composto da tre componenti principali:
 
 1. **Front-end**: Interfaccia utente reattiva e moderna sviluppata con React e Tailwind CSS
 2. **Back-end**: API RESTful basata su Node.js, Express e MongoDB
