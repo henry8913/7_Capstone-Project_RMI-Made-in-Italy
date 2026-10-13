@@ -217,7 +217,7 @@ def ask_openrouter(prompt, session_id):
                 "Content-Type": "application/json"
             },
             json={
-                "model": "anthropic/claude-3-haiku",
+                "model": "anthropic/claude-haiku-4.5",
                 "messages": messages,
                 "temperature": 0.7,
                 "max_tokens": 400  # Ridotto per garantire risposte più concise
